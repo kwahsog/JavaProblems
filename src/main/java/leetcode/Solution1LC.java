@@ -16,13 +16,14 @@ public class Solution1LC {
     	int[] solution = new int[2];
     	
     	//HashMap get/put methods O(1) times.
-    	//loop through array checking for solution. If not found place in Hashmap for efficiency.
+    	//loop through array checking for solution in HashMap. If not found, place in HashMap for efficiency.
     	HashMap<Integer, Integer> HashMapSol = new HashMap<Integer, Integer>();
     	for(int i = 0; i < nums.length; i++){   		
     		int newtarget = target - nums[i]; 
     		if(HashMapSol.containsKey(newtarget)){
     			solution[0] = HashMapSol.get(newtarget);
     			solution[1] = i;
+    			break;
     		}
     		else{
     			HashMapSol.put(nums[i],i);
@@ -34,7 +35,8 @@ public class Solution1LC {
     	
     }
     
-	
+	//brute force solution, using two for loops.
+    
     public int[] twoSumBRUTEFORCE(int[] nums, int target) {
         
     	int index1 = 0;

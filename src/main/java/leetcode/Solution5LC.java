@@ -4,7 +4,7 @@ public class Solution5LC {
 
 	/** LeetCode Problem 5: Longest Palindromic Substring
 	 * Given a string S, find the longest palindromic substring in S.
-	 * e.g.  the longest substring without repeating letters for "abcabcbb" is "abc", so return 3.
+	 * e.g.  the longest palindromic substring for "zdvabbakzx" is "abba".
 	 * URL: https://leetcode.com/problems/longest-palindromic-substring/
 	 * @author Alex
 	 *
@@ -33,6 +33,7 @@ public class Solution5LC {
     }
     
     //returns longest palindrome around startindex and endindex
+    //REMIDNER: s.substring: startindex is inclusive, endindex is exclusive.
     public String palindromebuilder(String s, int startindex, int endindex){
     		 while(startindex >= 0 && endindex <= s.length()-1 && s.charAt(startindex)==s.charAt(endindex)){
     			 startindex--;

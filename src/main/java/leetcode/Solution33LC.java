@@ -48,7 +48,6 @@ public class Solution33LC {
 
     public static void main (String args[]) {
         int[] nums = {4,5,6,7,0,1,2};
-
         System.out.println(search(nums,0)); //return 4
 
         int[] nums2 = {4,5,6,7,0,1,2};

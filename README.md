@@ -3,6 +3,10 @@
 Collection of Java practice problems solutions.
 
 
-#### Binary Search
+#### Binary Search - O(log n)
 33: https://leetcode.com/problems/search-in-rotated-sorted-array/description/  
-34: https://leetcode.com/problems/search-for-a-range/description/  
+34: https://leetcode.com/problems/search-for-a-range/description/
+35: https://leetcode.com/problems/search-insert-position/description/
+
+#### Normal 'for loop' Search - O(n)
+35: https://leetcode.com/problems/search-insert-position/description/

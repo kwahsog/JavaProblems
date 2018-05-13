@@ -10,3 +10,9 @@ Collection of Java practice problems solutions.
 
 #### Normal 'for loop' Search - O(n)
 35: https://leetcode.com/problems/search-insert-position/description/
+
+### n-dimensional arrays:
+36: https://leetcode.com/problems/valid-sudoku/description/
+
+### Backtracking:
+39: https://leetcode.com/problems/combination-sum/description/

@@ -16,3 +16,5 @@ Collection of Java practice problems solutions.
 
 ### Backtracking:
 39: https://leetcode.com/problems/combination-sum/description/
+40: https://leetcode.com/problems/combination-sum-ii/description/
+46: https://leetcode.com/problems/permutations/description/

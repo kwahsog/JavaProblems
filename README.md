@@ -22,3 +22,4 @@ Collection of Java practice problems solutions.
 
 ### Misc:
 12: https://leetcode.com/problems/integer-to-roman/description/
+50: https://leetcode.com/problems/powx-n/description/
